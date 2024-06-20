@@ -9,12 +9,14 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7.5rem 10rem;
+    
     font-family: "Poppins", sans-serif;
     color: hsl(229, 6%, 66%);
 }
+body{
+    
+}
 .header{
-    border: 2px solid black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -28,20 +30,61 @@ span{
 }
 h1{
     font-weight: 200;
-    margin-bottom: 1.6rem;
+    padding:0 0 0 .8rem;
+    margin-top: 2rem;
 }
 h1 span{
     font-weight: 500;
 }
+
+.header-text{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.75;
+    padding: .8rem 0 5rem 0;
+    width: 55%
+}
 .header-title{
-    border: 2px solid black;
-}
-.header-text{
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    border: 2px solid black;
-}
-.header-title,
-.header-text{
     width: 50%;
+}
+.section-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10rem 10rem 10rem;
+    column-gap: 4rem;
+    row-gap: 4rem;
+}
+.left,
+.centerT,
+.centerB,
+.right{
+    width:35rem;
+    height: 25rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 3rem;
+    box-shadow: 0 1.8rem 1.8rem rgba(84, 158, 242, 0.086);
+}
+.left{
+    grid-row: 2 / 4;
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.centerT{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.centerB{
+    grid-column: 2 / 3;
+    grid-row: 3;
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.right{
+    grid-row: 2 / 4;
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+h2{
+    color: hsl(234, 12%, 34%);
+    font-size: 2rem;
+    font-weight: 500;
 }
