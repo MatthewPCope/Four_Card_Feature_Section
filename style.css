@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5rem 10rem;
+    font-family: "Poppins", sans-serif;
+    color: hsl(229, 6%, 66%);
+}
+.header{
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1,
+span{
+    font-size: 3.6rem;
+    color: hsl(234, 12%, 34%);
+    
+}
+h1{
+    font-weight: 200;
+    margin-bottom: 1.6rem;
+}
+h1 span{
+    font-weight: 500;
+}
+.header-title{
+    border: 2px solid black;
+}
+.header-text{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
+.header-title,
+.header-text{
+    width: 50%;
+}
