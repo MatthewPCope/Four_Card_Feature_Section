@@ -64,6 +64,7 @@ h1 span{
     background-color: #ffffff;
     padding: 3rem;
     box-shadow: 0 1.8rem 1.8rem rgba(84, 158, 242, 0.086);
+    position: relative;
 }
 .left{
     grid-row: 2 / 4;
@@ -87,4 +88,14 @@ h2{
     color: hsl(234, 12%, 34%);
     font-size: 2rem;
     font-weight: 500;
+    margin-bottom: 1rem;
+}
+.section-cards p{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.icon{
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
 }
