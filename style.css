@@ -13,7 +13,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: inherit;
 }
 html{
     background-color: hsl(0, 0%, 98%);
@@ -106,15 +105,15 @@ h2{
         ". . b b . .";
     }
     .left{
-    grid-area: l;
+        grid-area: l;
     }
     .centerT{
-    grid-area: t;
+        grid-area: t;
     }
     .centerB{
-    grid-area: b;
+        grid-area: b;
     }
     .right{
-    grid-area: r;
+        grid-area: r;
     }
 }
